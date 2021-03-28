@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "react-website-v1",
   "version": "0.1.0",
   "private": true,
@@ -12,19 +11,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
-=======
-  "name": "navbar-dropdown-v1",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
->>>>>>> 163f81957ac5e32eb01a114a759d3ac4a396e0a9
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,14 +19,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-<<<<<<< HEAD
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-=======
-    "extends": "react-app"
->>>>>>> 163f81957ac5e32eb01a114a759d3ac4a396e0a9
   },
   "browserslist": {
     "production": [
