@@ -40,32 +40,37 @@ function Footer() {
               <i className="fas fa-brain"></i>
             </Link>
           </div>
-          <small className="website-rights">LB Bradburn © 2021</small>
+          <small className="website-rights">
+            © Built by LB with React 2021
+          </small>
           <div className="social-icons">
-            <Link
+            <a
+              href="https://www.facebook.com/lb.bradburn"
               className="social-icon-link"
-              to="/"
               target="_blank"
               aria-label="Faceook"
+              rel="noreferrer"
             >
               <i className="fab fa-facebook-f"></i>
-            </Link>
-            <Link
+            </a>
+            <a
+              href="https://www.instagram.com/lb_seeing_you/"
               className="social-icon-link"
-              to="/"
               target="_blank"
               aria-label="Instagram"
+              rel="noreferrer"
             >
               <i class="fab fa-instagram"></i>
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link"
-              to="/"
+              href="https://twitter.com/lb_seeing_you"
               target="_blank"
               aria-label="Twitter"
+              rel="noreferrer"
             >
               <i className="fab fa-twitter"></i>
-            </Link>
+            </a>
           </div>
         </div>
       </section>

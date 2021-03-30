@@ -3,6 +3,8 @@ import CardItem from "./CardItem";
 import "./Cards.css";
 import img from "../../images/virtual-realty.png";
 import img2 from "../../images/SatHQ.png";
+import img3 from "../../images/webcam.jpeg";
+import img4 from "../../images/neural.png";
 
 function Cards() {
   return (
@@ -22,6 +24,18 @@ function Cards() {
               text="Virtual Realty -- eCommerce Property Site"
               label="Virtual Realty"
               path="/virtual-realty"
+            />
+            <CardItem
+              src={img3}
+              text="Smart Webcam-- Tensorflow.js"
+              label="Smart Webcam"
+              path="/smart-webcam"
+            />
+            <CardItem
+              src={img4}
+              text="Neural Networks with Brain.js"
+              label="Neural Networks"
+              path="/neural-networks"
             />
           </div>
         </div>
