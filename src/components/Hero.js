@@ -2,9 +2,6 @@ import React from "react";
 import Button from "./Button";
 import "./Hero.css";
 import "../App.css";
-import video from "../videos/video-2.mp4";
-import ColorBars from "../components/ColorBars";
-import Cards from "../components/pages/Cards";
 
 function Hero() {
   return (
