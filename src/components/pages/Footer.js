@@ -29,14 +29,14 @@ function Footer() {
         <div className="footer-links-wrapper">
           <div className="footer-link-items">
             {/* <h2>About Us</h2> */}
-            {/* <Link to="/sign-up">Sign Up</Link> */}
+            {/* <Link to="/">Sign Up</Link> */}
           </div>
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link className="social-logo">
+            <Link className="social-logo" to="/">
               <i className="fas fa-brain"></i>
             </Link>
           </div>
@@ -60,7 +60,7 @@ function Footer() {
               aria-label="Instagram"
               rel="noreferrer"
             >
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
             <a
               className="social-icon-link"

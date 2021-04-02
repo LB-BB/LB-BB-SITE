@@ -2,11 +2,12 @@ import React from "react";
 import Button from "./Button";
 import "./Hero.css";
 import "../App.css";
+import trees from "../videos/trees.mp4";
 
 function Hero() {
   return (
     <div className="hero-container">
-      {/* <video src={video} autoPlay={true} loop muted /> */}
+      <video src={trees} autoPlay={true} loop muted />
       <h1>From the Primordial Goo</h1>
       <p>Comes a Human Software Engineer</p>
       <div className="hero-btns">

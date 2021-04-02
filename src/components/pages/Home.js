@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <Hero />
-      <Cards />
+      <Cards title="cards" id="#cards" />
       <Footer />
     </>
   );
