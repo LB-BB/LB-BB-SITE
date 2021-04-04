@@ -9,7 +9,7 @@ import img4 from "../../images/neural.png";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these epic scenarios for humanity's future!</h1>
+      <h1>Check out my creations and experiments.</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <div className="cards__items">
