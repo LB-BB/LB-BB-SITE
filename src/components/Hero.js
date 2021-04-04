@@ -16,15 +16,15 @@ function Hero() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          SINGLE-CELL LIFE
+          GET IN TOUCH
         </Button>
-        <Button
+        {/* <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
           FLOATING SUPERBRAINS <i className="far fa-play-circle" />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
