@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Footer from "./Footer";
 import LB from "../../images/LB.jpeg";
-import "../pages/Cards.css";
+import "../pages/WideCard.css";
 
 export default function Bio() {
   return (
@@ -13,7 +13,8 @@ export default function Bio() {
           <div className="biocard">
             <img src={LB} alt="LB Bradburn" />
             <p>
-              Hi, I'm LB (they/them/theirs).
+              Hi, I'm LB (they/them/theirs), and the above dog is my puzzle
+              sidekick, Chili.
               <br></br>
               <br></br>
               I'm a software engineer and teaching fellow who loves spotting
