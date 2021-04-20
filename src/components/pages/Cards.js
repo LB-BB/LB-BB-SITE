@@ -9,7 +9,6 @@ import img4 from "../../images/neural.png";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these awesome projects.</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <div className="cards__items">

@@ -8,20 +8,21 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Tune in to S.0.S. radio when everything goes pear-shaped!
+          Tune in to LB Radio for updates on my projects!
         </p>
         <p className="footer-subscription-text">
-          Twiddle the dial until you find it.
+          Twiddle the dial until you find it, or subscribe.
         </p>
         <div className="input-areas">
           <form>
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              className="footer-input"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <a
+              href="https://github.com/users/follow?target=lb-bb"
+              title="Follow lb-bb on Github"
+              id="followGithub"
+              class="noBg"
+            >
+              <Button buttonStyle="btn--outline">Subscribe</Button>
+            </a>
           </form>
         </div>
       </section>

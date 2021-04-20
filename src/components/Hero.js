@@ -2,22 +2,26 @@ import React from "react";
 import Button from "./Button";
 import "./Hero.css";
 import "../App.css";
-import trees from "../videos/trees.mp4";
+import { Link } from "react-router-dom";
+import waves from "../videos/waves.mp4";
 
 function Hero() {
   return (
     <div className="hero-container">
-      {/* <video src={trees} autoPlay={true} loop muted /> */}
+      {/* <video src={waves} autoPlay={true} loop muted /> */}
       <h1>From the Primordial Goo</h1>
       <p>Comes a Human Software Engineer</p>
       <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
-          GET IN TOUCH
-        </Button>
+        <Link to="/projects">
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+            href="/projects"
+          >
+            SEE MY PROJECTS
+          </Button>
+        </Link>
         {/* <Button
           className="btns"
           buttonStyle="btn--primary"
