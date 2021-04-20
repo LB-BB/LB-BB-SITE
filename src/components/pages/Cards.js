@@ -24,6 +24,8 @@ function Cards() {
               label="Virtual Realty"
               href="https://virtual-realty.herokuapp.com/home"
             />
+          </div>
+          <div className="cards__items">
             <CardItem
               src={img3}
               text="Smart Webcam-- Tensorflow.js"

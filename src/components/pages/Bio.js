@@ -20,13 +20,17 @@ export default function Bio() {
               I'm a software engineer and teaching fellow who loves spotting
               bugs.
               <br></br>
-              Pre-pandemic, I designed and built escape rooms for a company in
-              Manhattan. Stuck at home, I leapt at the opportunity to learn how
-              to design and build projects digitally. <br></br>
-              <br></br>Now I am a full stack developer specializing in
-              Javascript and the NERD stack. I'm looking to add my strong
-              technical abilities and obsession with solutions to an engineering
-              team.
+              Before my developer journey, I was an artist and environmental
+              activist. When the pandemic began, I was working as an escape room
+              designer for a company in Manhattan. In quarantine, I found I
+              could use my artistic skills and drive for solutions to build
+              digital projects, and jumped into the Grace Hopper Program at
+              Fullstack Academy.
+              <br></br>
+              <br></br>Now I am a full stack engineer specializing in Javascript
+              and the NERD stack. I'm looking to add my strong technical
+              abilities to an engineering team, especially one that is
+              thoughtful about its ecological impact.
               <br></br>
               <br></br>I have also seen 500+ films. Let's discuss your favorite.
             </p>

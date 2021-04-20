@@ -9,9 +9,19 @@ function Hero() {
   return (
     <div className="hero-container">
       {/* <video src={waves} autoPlay={true} loop muted /> */}
-      <h1>From the Primordial Goo</h1>
-      <p>Comes a Human Software Engineer</p>
+      <h1>From the Primordial Sea</h1>
+      <p>Crawls a Human Software Engineer</p>
       <div className="hero-btns">
+        <Link to="/bio">
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+            href="/projects"
+          >
+            LEARN ABOUT ME
+          </Button>
+        </Link>
         <Link to="/projects">
           <Button
             className="btns"
@@ -22,13 +32,16 @@ function Hero() {
             SEE MY PROJECTS
           </Button>
         </Link>
-        {/* <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          FLOATING SUPERBRAINS <i className="far fa-play-circle" />
-        </Button> */}
+        <Link to="/contact">
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+            href="/projects"
+          >
+            GET IN TOUCH
+          </Button>
+        </Link>
       </div>
     </div>
   );
