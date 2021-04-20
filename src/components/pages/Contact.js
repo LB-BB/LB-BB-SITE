@@ -29,7 +29,7 @@ export default function Contact() {
               aria-label="Github"
               rel="noreferrer"
             >
-              <i class="fab fa-github-square"></i>
+              <i className="fab fa-github-square"></i>
             </a>
             <a
               className="contact-icons"
@@ -38,7 +38,7 @@ export default function Contact() {
               aria-label="Email"
               rel="noreferrer"
             >
-              <i class="fas fa-envelope-square"></i>
+              <i className="fas fa-envelope-square"></i>
             </a>
           </div>
         </div>

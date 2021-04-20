@@ -19,7 +19,7 @@ function Footer() {
               href="https://github.com/users/follow?target=lb-bb"
               title="Follow lb-bb on Github"
               id="followGithub"
-              class="noBg"
+              className="noBg"
             >
               <Button buttonStyle="btn--outline">Subscribe</Button>
             </a>

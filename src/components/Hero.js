@@ -3,7 +3,7 @@ import Button from "./Button";
 import "./Hero.css";
 import "../App.css";
 import { Link } from "react-router-dom";
-import waves from "../videos/waves.mp4";
+// import waves from "../videos/waves.mp4";
 
 function Hero() {
   return (
