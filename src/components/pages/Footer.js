@@ -48,7 +48,7 @@ function Footer() {
               href="https://www.facebook.com/lb.bradburn"
               className="social-icon-link"
               target="_blank"
-              aria-label="Faceook"
+              aria-label="Facebook"
               rel="noreferrer"
             >
               <i className="fab fa-facebook-f"></i>
