@@ -84,14 +84,15 @@ body {
 
 .contact-icon-container {
   display: flex;
-  justify-content: center;
+  width: 200px;
+  height: 100px;
   flex-direction: row;
-  align-items: center;
-
+align-items: center; 
 }
 
 .contact-icons {
     color: white;
     font-size: 100px;
+    /* padding: 30px; */
 
 }
