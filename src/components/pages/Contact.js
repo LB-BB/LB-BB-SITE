@@ -33,7 +33,7 @@ export default function Contact() {
             </a>
             <a
               className="contact-icons"
-              href="href=mailto:bradburnlb@gmail.com"
+              href="mailto:bradburnlb@gmail.com"
               target="_blank"
               aria-label="Email"
               rel="noreferrer"
