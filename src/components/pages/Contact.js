@@ -6,41 +6,38 @@ import "./Footer.css";
 export default function Contact() {
   return (
     <div>
-      <div className="contact">
+      <div className="contact-container">
         <div className="contact-text-container">
           <h1>CONTACT</h1>
-          <br></br>
         </div>
         <div className="contact-icon-container">
-          <div className="social-icons">
-            <a
-              href="https://www.linkedin.com/in/lb-bradburn"
-              className="contact-icons"
-              target="_blank"
-              aria-label="Linkedin"
-              rel="noreferrer"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://www.github.com/lb-bb"
-              className="contact-icons"
-              target="_blank"
-              aria-label="Github"
-              rel="noreferrer"
-            >
-              <i className="fab fa-github-square"></i>
-            </a>
-            <a
-              className="contact-icons"
-              href="mailto:bradburnlb@gmail.com"
-              target="_blank"
-              aria-label="Email"
-              rel="noreferrer"
-            >
-              <i className="fas fa-envelope-square"></i>
-            </a>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/lb-bradburn"
+            className="contact-icons"
+            target="_blank"
+            aria-label="Linkedin"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.github.com/lb-bb"
+            className="contact-icons"
+            target="_blank"
+            aria-label="Github"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github-square"></i>
+          </a>
+          <a
+            className="contact-icons"
+            href="mailto:bradburnlb@gmail.com"
+            target="_blank"
+            aria-label="Email"
+            rel="noreferrer"
+          >
+            <i className="fas fa-envelope-square"></i>
+          </a>
         </div>
       </div>
       <Footer />
