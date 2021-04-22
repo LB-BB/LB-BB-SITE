@@ -9,8 +9,8 @@ function Hero() {
   return (
     <div className="hero-container">
       {/* <video src={waves} autoPlay={true} loop muted /> */}
-      <h1>From the Primordial Sea</h1>
-      <p>Crawls a Software Engineer</p>
+      <h1>From the Primordial Ooze</h1>
+      <p>Emerges a Software Engineer</p>
       <div className="hero-btns">
         <Link to="/bio">
           <Button
