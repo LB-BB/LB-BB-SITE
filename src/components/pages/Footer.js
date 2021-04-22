@@ -11,7 +11,7 @@ function Footer() {
           Tune in to LB Radio for updates on my projects!
         </p>
         <p className="footer-subscription-text">
-          Twiddle the dial until you find it, or subscribe.
+          Twiddle the dial until you find it, or follow me on GitHub.
         </p>
         <div className="input-areas">
           <form>
@@ -21,7 +21,7 @@ function Footer() {
               id="followGithub"
               className="noBg"
             >
-              <Button buttonStyle="btn--outline">Subscribe</Button>
+              <Button buttonStyle="btn--outline">Follow</Button>
             </a>
           </form>
         </div>
