@@ -95,3 +95,12 @@ background-color: rgb(31, 47, 90);
     
 
 }
+
+.hero-container h2 {
+  color: #fff;
+  font-size: 60px;
+}
+.hero-container h3 {
+  color: #fff;
+  font-size: 23px;
+}
