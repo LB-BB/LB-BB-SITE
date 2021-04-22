@@ -13,16 +13,22 @@ export default function Bio() {
           <div className="biocard">
             <img src={LB} alt="LB Bradburn" />
             <p>
-              I'm LB, and that's Chili.
+              I'm LB, and the above dog is Chili.
+              <br></br>
               <br></br>
               Pre-pandemic, I designed and built user experiences as an escape
-              room creator. My early obsession, however, is environmental
-              studies. I found the intersection of artistry and real-world
-              problem-solving in software engineering. After training in the
-              Grace Hopper Program, I am currently a Teaching Fellow at
-              Fullstack Academy. I'm looking to apply my strong technical skills
-              to a team that believes not only in their end product, but in
-              ensuring the quality of the work from start to finish.
+              room creator. I earned my undergrad degree in sustainability and
+              environmental studies.
+              <br></br>
+              <br></br>I found the intersection of artistry and real-world
+              problem-solving when I became a software engineer. After training
+              in the Grace Hopper Program, I entered their Teaching Fellowship
+              and am currently mentoring junior engineers.
+              <br></br>
+              <br></br>
+              I'm looking for a team that believes not only in their end
+              product, but in ensuring the quality of the work from start to
+              finish. As an escape room champ, I care a lot about details.
               <br></br>
               <br></br>
               <br></br>I have also seen 500+ films. Let's discuss your favorite.
