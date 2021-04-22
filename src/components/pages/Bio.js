@@ -13,24 +13,17 @@ export default function Bio() {
           <div className="biocard">
             <img src={LB} alt="LB Bradburn" />
             <p>
-              Hi, I'm LB (they/them/theirs), and the above dog is my puzzle
-              sidekick, Chili.
+              I'm LB, and that's Chili.
               <br></br>
+              Pre-pandemic, I designed and built user experiences as an escape
+              room creator. My early obsession, however, is environmental
+              studies. I found the intersection of artistry and real-world
+              problem-solving in software engineering. After training in the
+              Grace Hopper Program, I am currently a Teaching Fellow at
+              Fullstack Academy. I'm looking to apply my strong technical skills
+              to a team that believes not only in their end product, but in
+              ensuring the quality of the work from start to finish.
               <br></br>
-              I'm a software engineer and teaching fellow who loves spotting
-              bugs.
-              <br></br>
-              Before my developer journey, I was an artist and environmental
-              activist. When the pandemic began, I was working as an escape room
-              designer for a company in Manhattan. In quarantine, I found I
-              could use my artistic skills and drive for solutions to build
-              digital projects, and jumped into the Grace Hopper Program at
-              Fullstack Academy.
-              <br></br>
-              <br></br>Now I am a full stack engineer specializing in Javascript
-              and the NERD stack. I'm looking to add my strong technical
-              abilities to an engineering team, especially one that is
-              thoughtful about its ecological impact.
               <br></br>
               <br></br>I have also seen 500+ films. Let's discuss your favorite.
             </p>
