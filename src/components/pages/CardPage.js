@@ -1,5 +1,5 @@
 import React from 'react'
-import "./CardPage.css"
+import "./WideCard.css"
 import CardItem from "./CardItem"
 
 
@@ -10,6 +10,7 @@ import CardItem from "./CardItem"
 function CardPage(props) {
 
     const sendToURL = (e) => {
+        window.open(e.target.href, "_blank")
         //open a new window with the href from props.outerLink
     }
 
